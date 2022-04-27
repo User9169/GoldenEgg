@@ -116,8 +116,8 @@
                     <h2>ЗАКАЗАТЬ СТОЛИК</h2>
                     <form action="" class="order-form">
                         <input type="text" placeholder="Имя" required>
-                        <input type="text" placeholder="email" required>
-                        <input type="text" placeholder="Телефон" required>
+                        <input type="email" placeholder="email" required>
+                        <input type="tel" placeholder="Телефон" required>
                         <div class="order__select">
                             <select required>
                                 <option value="">Кол-во людей</option>
@@ -485,6 +485,70 @@
             </div>
 
         </section>
+
+        <section class="events" id="events">
+            <h6>Частые мероприятия</h6>
+            <div class="container events__container">
+                <div class="left__event">
+                    <img src="img/event1.png" alt="">
+                    <div class="circle"></div>
+                    <div class="event__title">Свадебный банкет</div>
+                </div>
+                <div class="right__event">
+                    <img src="img/event2.png" alt="">
+                    <div class="circle"></div>
+                    <div class="event__title">Корпоративные вечеринки</div>
+                </div>
+            </div>
+            <div class="container events__contacts">
+                По вопросам частных мероприятий звоните:<a href="tel:+38098 729 13 67">+38098 729 13 67</a>/<a href="tel:+38097 458 78 79">+38097 458 78 79</a>  или используйте контактную форму.
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <h2>Контакты</h2>
+            <p class="intro contacts__intro">
+                Вы можете оставить нам сообщение через форму ниже, или любым другим, удобным вам способом
+            </p>
+            <form action="" class="container contacts__form">
+                <input type="text" placeholder="Имя" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Телефон" required>
+                <textarea></textarea>
+                <div class="contacts__date-submit">
+                    <div class="contacts__data">
+                        <div class="contacts__data-item">
+                            <svg>
+                                <use xlink:href="img/sprite-icons.svg#map"></use>
+                            </svg>
+                            <a href="https://www.google.com/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D1%8B,+105,+%D0%9C%D0%B0%D1%80%D0%B8%D1%83%D0%BF%D0%BE%D0%BB%D1%8C,+%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+87500/@47.1055838,37.6584499,17z/data=!3m1!4b1!4m5!3m4!1s0x40e6e61344f2caf5:0x351bd6ad53325060!8m2!3d47.1055838!4d37.6606386" target="_blank">пр-т. Победы, 105, Мариуполь</a>
+                        </div>
+
+                        <div class="contacts__data-item">
+                            <svg>
+                                <use xlink:href="img/sprite-icons.svg#phone"></use>
+                            </svg>
+                            <a href="tel:+38098 729 13 67 ">+38098 729 13 67</a>
+                        </div>
+
+                        <div class="contacts__data-item">
+                            <svg>
+                                <use xlink:href="img/sprite-icons.svg#email"></use>
+                            </svg>
+                            <a href="mailto:info@goldenegg.com">info@goldenegg.com</a>
+                        </div>
+                    </div>
+                    <button type="submit">Отправить сообщение</button>
+                </div>
+            </form>
+        </section>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2715.667747144915!2d37.6584499159858!3d47.10558377915463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e6e61344f2caf5%3A0x351bd6ad53325060!2z0L_RgNC-0YHQvy4g0J_QvtCx0LXQtNGLLCAxMDUsINCc0LDRgNC40YPQv9C-0LvRjCwg0JTQvtC90LXRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwgODc1MDA!5e0!3m2!1sru!2sua!4v1651055868873!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <footer>
+            Golden egg 2012
+        </footer>
 
     </div>  <!--end wrapper-->
 
