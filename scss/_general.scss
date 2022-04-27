@@ -14,6 +14,11 @@ $gray-opacity: rgba(51, 51, 51, 0.5);
 $white-opacity: rgba(255,255,255,0.5);
 $black-opacity: rgba(0,0,0,0.5);
 
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+}
 
 @mixin flex($jc,$ai) {
     display: flex;
@@ -41,7 +46,12 @@ $black-opacity: rgba(0,0,0,0.5);
     border-radius: 5px; 
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
+    min-width: $wrap;
     background: $white;
     font-family: $os;
     color: $color;
@@ -90,4 +100,6 @@ section p {
 
 .intro  {
     font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
 }

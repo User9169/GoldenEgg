@@ -101,9 +101,15 @@
 }
 
 footer {
+    width: 100%;
     background: rgba(0,0,0,0.9);
     text-align: center;
     padding: 10px;
     color: $white-opacity;
     font-size: 12px;
+}
+
+.tittle__container-contacts {
+    width: 100%;
+    max-width: 565px;
 }

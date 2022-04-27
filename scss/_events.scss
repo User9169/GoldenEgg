@@ -2,6 +2,7 @@
     background: url(../img/bg-event.jpg) center/cover no-repeat;
     padding: 45px 0;
     h6 {
+        width: 100%;
         text-align: center;
         text-transform: uppercase;
         color: $white;
@@ -59,7 +60,8 @@
     height: 100%;
 }
 
-.events__contacts {
+.events__contacts { 
+    width: 100%;
     font-size: 12px;
     line-height: 12px;
     color: $white-opacity;
